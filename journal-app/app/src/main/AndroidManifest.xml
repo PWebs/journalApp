@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.itechsuite.journalsapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.example.itechsuite.journalsapp.welcome_screen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.itechsuite.journalsapp.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <activity
+            android:name="com.example.itechsuite.journalsapp.MainActivity"
+            android:configChanges="orientation"
+            android:label="Journal App"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.itechsuite.journalsapp.AddNewJournal"
+            android:configChanges="orientation"
+            android:label="Add New Journal"
+            android:parentActivityName="com.example.itechsuite.journalsapp.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.itechsuite.journalsapp.AboutActivity"
+            android:configChanges="orientation"
+            android:label="About Journal App"
+            android:parentActivityName="com.example.itechsuite.journalsapp.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.itechsuite.journalsapp.JournalDetail"
+            android:configChanges="orientation"
+            android:label="Journal Details"
+            android:parentActivityName="com.example.itechsuite.journalsapp.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ProfileActivity"
+            android:configChanges="orientation"
+            android:label="Profile Details"
+            android:parentActivityName="com.example.itechsuite.journalsapp.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.itechsuite.journalsapp.EditProfileActivity"
+            android:configChanges="orientation"
+            android:label="Edit Profile"
+            android:parentActivityName=".ProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.itechsuite.journalsapp.EditJournal"
+            android:configChanges="orientation"
+            android:label="Add Journal"
+            android:parentActivityName="com.example.itechsuite.journalsapp.HomeActivity"
+            android:screenOrientation="portrait" />
+
+
+    </application>
+
+</manifest>

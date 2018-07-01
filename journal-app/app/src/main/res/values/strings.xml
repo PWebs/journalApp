@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="no_journals">Click on the button below to add a Journal!</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+
+    <string name="name">Name</string>
+
+    <string name="add_journal">Add Journal</string>
+    <string name="profile">Profile</string>
+    <string name="logOut">Log Out</string>
+    <string name="about">About</string>
+
+    <string name="Chihurumnanya_Nwanevu">CHihurumnanya Nwanevu</string>
+    <string name="email">nwanevunkem.chihurumnanya@gmail.com</string>
+    <string name="sign_in">Sign In with Google</string>
+    <string name="welcome">Welcome</string>
+    <string name="journal_app">Journal App</string>
+
+    <string name="about_app">Journal App allows you to store information in form of text. Project By Kingsley Goodluck</string>
+</resources>
